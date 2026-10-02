@@ -1,0 +1,1 @@
+{"name":"stage-turner-site","private":true,"scripts":{"test":"node tests/site.cjs"},"devDependencies":{"playwright":"^1.58.0"}}

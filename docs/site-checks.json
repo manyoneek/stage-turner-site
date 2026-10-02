@@ -1,0 +1,87 @@
+{
+  "results": [
+    {
+      "engine": "chromium",
+      "width": 320,
+      "overflow": false,
+      "loadedImages": true,
+      "gestureSwitching": true,
+      "motion": true
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "overflow": false,
+      "loadedImages": true,
+      "gestureSwitching": true,
+      "motion": true
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "overflow": false,
+      "loadedImages": true,
+      "gestureSwitching": true,
+      "motion": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "overflow": false,
+      "loadedImages": true,
+      "gestureSwitching": true,
+      "motion": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "overflow": false,
+      "loadedImages": true,
+      "gestureSwitching": true,
+      "motion": true
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "overflow": false,
+      "loadedImages": true,
+      "gestureSwitching": true,
+      "motion": true
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "overflow": false,
+      "loadedImages": true,
+      "gestureSwitching": true,
+      "motion": true
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "overflow": false,
+      "loadedImages": true,
+      "gestureSwitching": true,
+      "motion": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "overflow": false,
+      "loadedImages": true,
+      "gestureSwitching": true,
+      "motion": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "overflow": false,
+      "loadedImages": true,
+      "gestureSwitching": true,
+      "motion": true
+    }
+  ],
+  "reducedMotion": true,
+  "noJavaScriptContent": true,
+  "legalPages": true
+}
