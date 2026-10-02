@@ -8,7 +8,7 @@ document.querySelectorAll('[data-score]').forEach((el,block)=>{for(let row=0;row
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 let elapsed=0,last=0,gesture='wink';
 const isPaused=()=>reduced.matches;
-function motionState(){document.body.classList.toggle('motion-paused',isPaused())}
+function motionState(){document.body.classList.toggle('motion-paused',isPaused());const video=document.querySelector('.reader-recording');if(video){if(isPaused())video.pause();else video.play().catch(()=>{});}}
 reduced.addEventListener('change',motionState);
 const labels={wink:'Wink',mouthSideways:'Move your mouth',headTurn:'Turn your head'};
 document.querySelectorAll('[data-pick]').forEach(button=>button.addEventListener('click',()=>{gesture=button.dataset.pick;elapsed=0;document.querySelectorAll('.demo').forEach(d=>d.dataset.gesture=gesture);document.querySelectorAll('[data-pick]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));document.querySelector('#gesture-description').textContent=`${labels[gesture]} right to scroll down. ${labels[gesture]} left to scroll up.`;render(0)}));
